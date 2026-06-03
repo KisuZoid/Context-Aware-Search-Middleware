@@ -216,3 +216,116 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ========================================
+# Node.js
+# ========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.pnpm-store/
+.npm/
+
+# Next.js
+.next/
+out/
+
+# React/Vite
+dist/
+vite.svg
+
+# Turborepo
+.turbo/
+
+# Build output
+build/
+
+# Coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# ========================================
+# Frontend Environment Files
+# ========================================
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================================
+# Package Managers
+# ========================================
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Keep lockfiles ONLY if this becomes an application.
+# For an OSS middleware framework, ignoring initially is fine.
+
+# ========================================
+# macOS
+# ========================================
+
+.DS_Store
+
+# ========================================
+# Windows
+# ========================================
+
+Thumbs.db
+Desktop.ini
+
+# ========================================
+# Linux
+# ========================================
+
+*~
+
+# ========================================
+# IDE
+# ========================================
+
+.idea/
+.vscode/
+
+# ========================================
+# Logs
+# ========================================
+
+logs/
+*.log
+
+# ========================================
+# Docker
+# ========================================
+
+docker-data/
+
+# ========================================
+# Local Development
+# ========================================
+
+tmp/
+temp/
+
+# ========================================
+# Testing
+# ========================================
+
+playwright-report/
+test-results/
+
+# ========================================
+# Misc
+# ========================================
+
+*.swp
+*.swo
